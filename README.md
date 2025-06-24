@@ -1,20 +1,20 @@
-# 🧠 ML Predictive Maintenance Dashboard
+# ML Predictive Maintenance Dashboard
 
-This is an AI-powered predictive maintenance dashboard for industrial pump systems. It enables engineers to:
+This project provides a predictive maintenance dashboard for monitoring industrial pump systems. It enables engineers to:
 
-- 📈 Visualize real-time or uploaded sensor data
-- 🔮 Forecast the next 50 values for vibration, temperature, and more
-- 🛠 Train custom ML models using user-provided data
-- 💡 Integrate with OPC UA data sources (real PLC/SCADA systems)
+- Visualize real-time or uploaded sensor data  
+- Forecast the next 50 values for key indicators (e.g., vibration, temperature)  
+- Train custom machine learning models using uploaded datasets  
+- Optionally integrate with OPC UA data sources from PLC/SCADA systems
 
-## ⚙️ Tech Stack
+## Tech Stack
 
-- Python + Streamlit
-- scikit-learn (MultiOutputRegressor)
-- Pandas, NumPy, Matplotlib
+- Python, Streamlit  
+- scikit-learn (MultiOutputRegressor)  
+- pandas, NumPy, matplotlib  
 - OPC UA integration via `opc_logger.py` (optional)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── model/                        # Forecast models (.pkl files)
@@ -27,7 +27,7 @@ This is an AI-powered predictive maintenance dashboard for industrial pump syste
 └── README.md
 ```
 
-## 📁 How to Use
+## How to Use
 
 1. [Visit the app link](https://ml-predictive-maintenance.streamlit.app/)
 2. Upload your CSV (or check \"Use demo OPC UA data\")
